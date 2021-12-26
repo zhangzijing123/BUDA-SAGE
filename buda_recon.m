@@ -1,14 +1,14 @@
 clear;clc
-% close all;
+close all;
 
-addpath(genpath('/media/sda-4T/zzj/space/2021_12_15_bay4_invivo_sage/32ch/4st_s2/TE91/data_code_share/'))
+addpath(genpath('/tools/'))
 
 
 %--------------------------------------------------------------------------
 %% fast-sms-BUDA
 %--------------------------------------------------------------------------
 
-data_path = '/media/sda-4T/zzj/space/2021_12_15_bay4_invivo_sage/32ch/4st_s2/TE91/data_code_share/data/';
+data_path = '/data/';
 
 load([data_path, 'kdata.mat'])       % the kspace data
               

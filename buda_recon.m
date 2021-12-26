@@ -1,7 +1,7 @@
 clear;clc
-% close all;
+close all;
 
-addpath(genpath('/home/zzj/MRI/autofs/tools/'))
+addpath(genpath('/tools/'))
 
 
 %--------------------------------------------------------------------------
